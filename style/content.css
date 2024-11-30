@@ -11,22 +11,40 @@
 }
 
 .fullscreen-container {
-    height: calc(100vh - 70px);
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  height: calc(100vh - 70px);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
 /* ╭────────────────────────────────────────────────────────────────────────────────╮
    │                                  Startseite                                    │
    ╰────────────────────────────────────────────────────────────────────────────────╯ */
 
 .welcome-box {
+  display: block;
+  justify-content: center;
+  align-items: center;
   margin-right: 20%;
   height: 60%;
   width: 50%;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
+  outline: solid white 1px;
+}
+
+/* ╭────────────────────────────────────────────────────────────────────────────────╮
+   │                                     Text                                       │
+   ╰────────────────────────────────────────────────────────────────────────────────╯ */
+
+h1 {
+  font-family: var(--text-font);
+  color: var(--text-color-light)
+}
+
+p {
+  font-family: var(--text-font);
+  color: var(--text-color-light)
 }
