@@ -1,6 +1,12 @@
+@import url("variables.css");
+
+.seite {
+  background-color: var(--backgorund-color);
+}
+
 .fullscreen-container {
     height: calc(100vh - 80px);
-    background-color: #ffffff;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
