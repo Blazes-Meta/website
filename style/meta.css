@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
 :root {
   --main-color: #333;
 }
@@ -16,12 +18,13 @@
     color: white;
   }
   
-.logo {
-  font-size: 1.5em;
-  font-weight: bold;
+.logo img {
+  height: 35px; /* Automatische Anpassung der Breite für Seitenverhältnis */
+  width: auto; /* Keine Verzerrung */
+  display: block; /* Entfernt eventuelle Inline-Element-Abstände */
 }
 
-.navigation ul {
+.navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -29,18 +32,22 @@
   gap: 20px;
 }
 
-.navigation a {
+.navbar a {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   text-decoration: none;
   color: white;
   transition: color 0.3s;
 }
 
-.navigation a:hover {
+.navbar a:hover {
   color: #ff6347;
 }
 
 .fullscreen-container {
-  height: calc(100vh - 80px); /* Viewport-Höhe minus der Navbar-Höhe */
+  height: calc(100vh - 80px);
   background-color: #ffffff;
   display: flex;
   justify-content: center;
