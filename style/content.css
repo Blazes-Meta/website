@@ -23,8 +23,8 @@
    ╰────────────────────────────────────────────────────────────────────────────────╯ */
 
 .welcome-box {
-  display: block;
-  justify-content: center;
+  display: flex;
+  justify-content: left;
   align-items: center;
   margin-right: 20%;
   height: 60%;
@@ -34,17 +34,28 @@
   backdrop-filter: blur(10px);
   outline: solid white 1px;
 }
+.welcome-box > .text-wrapper {
+  margin-bottom: 300px;
+  margin-left: 20px;
+}
 
 /* ╭────────────────────────────────────────────────────────────────────────────────╮
    │                                     Text                                       │
    ╰────────────────────────────────────────────────────────────────────────────────╯ */
 
 h1 {
-  font-family: var(--text-font);
+  font-family: var(--heading-font);
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 1px;
   color: var(--text-color-light)
 }
 
 p {
   font-family: var(--text-font);
   color: var(--text-color-light)
+}
+
+.text-wrapper {
+  display: block;
 }
