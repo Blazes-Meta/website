@@ -1,7 +1,13 @@
 @import url("variables.css");
 
+/* ╭────────────────────────────────────────────────────────────────────────────────╮
+   │                                   Allgemein                                    │
+   ╰────────────────────────────────────────────────────────────────────────────────╯ */
+
 .seite {
   background-color: var(--backgorund-color);
+  margin: 0;
+  padding: 0;
 }
 
 .fullscreen-container {
@@ -12,3 +18,15 @@
     align-items: center;
   }
   
+/* ╭────────────────────────────────────────────────────────────────────────────────╮
+   │                                  Startseite                                    │
+   ╰────────────────────────────────────────────────────────────────────────────────╯ */
+
+.welcome-box {
+  margin-right: 20%;
+  height: 60%;
+  width: 50%;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+}
