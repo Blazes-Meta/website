@@ -10,7 +10,7 @@ class Header extends HTMLElement {
             <div class="logo"><a href="https://blazesmeta.de"><img src="img/logo.png" alt="Logo von Blazes Meta"></a></div>
             <nav class="navbar">
               <ul>
-                <li><a href="https://discord.gg/2YvbptpAqz"><div class="icon-wrapper"><img src="img/join-discord.svg" alt="Discord" class="icon"></div></a></li>
+                <li><a href="https://discord.gg/2YvbptpAqz"><div class="icon-wrapper"><img src="img/join-discord.svg" alt="Discord" class="icon show-mobile"></div></a></li>
                 <li><a href="https://status.blazesmeta.de"><div class="icon-wrapper"><img src="img/icons/uptimerobot.svg" alt="UptimeRobot" class="icon"></div></a></li>
                 <li><a href="https://map.blazesmeta.de"><div class="icon-wrapper"><img src="img/icons/dynmap.png" alt="Dynmap" class="icon"></div></a></li>
               </ul>

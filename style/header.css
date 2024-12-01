@@ -76,3 +76,19 @@
 .navbar .icon-wrapper:hover::after {
   opacity: 1;
 }
+
+/* Für Geräte mit Screen Ration unter 1/1, vor allem Handys */
+@media only screen and (max-aspect-ratio: 1/1) {
+  .icon-wrapper::after {
+    display: none !important;
+  }
+  .icon {
+    display: none !important;
+  }
+  .show-mobile {
+    transform: translateX(+25%);
+  }
+  .navbar ul {
+    justify-content: end;
+  }
+}

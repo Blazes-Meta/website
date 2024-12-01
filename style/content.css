@@ -59,3 +59,15 @@ p {
 .text-wrapper {
   display: block;
 }
+
+/* Für Geräte mit Screen Ration unter 1/1, vor allem Handys */
+@media only screen and (max-aspect-ratio: 1/1) {
+  .welcome-box {
+    width: 95%;
+    margin: auto;
+    align-items: stretch;
+  }
+  h1 {
+    word-wrap: break-word
+  }
+}
