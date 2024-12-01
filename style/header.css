@@ -87,6 +87,7 @@
   }
   .show-mobile {
     transform: translateX(+25%);
+    display: block !important;
   }
   .navbar ul {
     justify-content: end;
