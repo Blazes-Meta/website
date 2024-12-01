@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300..700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-    --backgorund-color: #242225;
+    --background-color: #242225;
     --accent-color: #681fd3;
 
     --button-hover-light: #adc3ff;

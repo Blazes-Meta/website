@@ -5,13 +5,13 @@
    ╰────────────────────────────────────────────────────────────────────────────────╯ */
 
 .seite {
-  background-color: var(--backgorund-color);
+  background-color: var(--background-color);
   margin: 0;
   padding: 0;
 }
 
 .fullscreen-container {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 70px); /* 70px ist hier die Höhe der Navbar */
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -25,9 +25,10 @@
 .welcome-box {
   display: flex;
   justify-content: left;
-  align-items: center;
+  align-items: top;
   margin-right: 20%;
   height: 60%;
+  min-height: 300px;
   width: 50%;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.15);
@@ -35,9 +36,10 @@
   outline: solid white 1px;
 }
 .welcome-box > .text-wrapper {
-  margin-bottom: 300px;
-  margin-left: 20px;
+  padding: 20px;
+  padding-left: 20px;
 }
+
 
 /* ╭────────────────────────────────────────────────────────────────────────────────╮
    │                                     Text                                       │
@@ -48,7 +50,8 @@ h1 {
   font-weight: 400;
   font-size: 60px;
   letter-spacing: 1px;
-  color: var(--text-color-light)
+  color: var(--text-color-light);
+  margin-top: 0;
 }
 
 p {
@@ -60,6 +63,10 @@ p {
   display: block;
 }
 
+/* ╭────────────────────────────────────────────────────────────────────────────────╮
+   │                              Mobile-Optimierung                                │
+   ╰────────────────────────────────────────────────────────────────────────────────╯ */
+
 /* Für Geräte mit Screen Ration unter 1/1, vor allem Handys */
 @media only screen and (max-aspect-ratio: 1/1) {
   .welcome-box {
@@ -67,6 +74,7 @@ p {
     margin: auto;
     align-items: stretch;
   }
+
   h1 {
     word-wrap: break-word
   }
