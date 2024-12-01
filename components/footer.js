@@ -11,8 +11,8 @@ class Footer extends HTMLElement {
             <nav class="navbar">
               <ul>
                 <li><a href="https://discord.gg/2YvbptpAqz"><div class="icon-wrapper"><img src="img/join-discord.svg" alt="Discord" class="icon show-mobile"></div></a></li>
-                <li><a href="https://status.blazesmeta.de"><div class="icon-wrapper"><img src="img/icons/uptimerobot.svg" alt="UptimeRobot" class="icon"></div></a></li>
-                <li><a href="https://play.blazesmeta.de:32866"><div class="icon-wrapper"><img src="img/icons/dynmap.png" alt="Dynmap" class="icon"></div></a></li>
+                <li><a href="http://status.blazesmeta.de"><div class="icon-wrapper"><img src="img/icons/uptimerobot.svg" alt="UptimeRobot" class="icon"></div></a></li>
+                <li><a href="http://play.blazesmeta.de:32866"><div class="icon-wrapper"><img src="img/icons/dynmap.png" alt="Dynmap" class="icon"></div></a></li>
               </ul>
             </nav>
           </header>
