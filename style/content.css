@@ -1,17 +1,31 @@
+/* ╭────────────────────────────────────────────────────────────────────────────────╮
+   │                              Inhaltsverzeichnis                                │
+   ╰────────────────────────────────────────────────────────────────────────────────╯ 
+
+  Tips für CSS: https: //chatgpt.com/share/674c909e-34a8-8008-8726-a0eccc709faa
+
+  Allgemeine Elemente
+  Startseite
+    Importance Hub
+  Text
+  Mobile Optimierung
+
+*/
+
 @import url("variables.css");
 
 /* ╭────────────────────────────────────────────────────────────────────────────────╮
    │                                   Allgemein                                    │
    ╰────────────────────────────────────────────────────────────────────────────────╯ */
 
-.seite {
+.page {
   background-color: var(--background-color);
   margin: 0;
   padding: 0;
 }
 
-.fullscreen-container {
-  height: calc(100vh - 70px); /* 70px ist hier die Höhe der Navbar */
+.start-container /* Mit Platz für die Navbar */ {
+  height: calc(100vh - 70px);
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -35,10 +49,42 @@
   backdrop-filter: blur(10px);
   outline: solid white 1px;
 }
-.welcome-box > .text-wrapper {
+.welcome-box > div {
   padding: 20px;
   padding-left: 20px;
 }
+
+  /* ╭────────────────────────────────────────────────────────────────────────────────╮
+     │                                  Portfolio                                     │
+     ╰────────────────────────────────────────────────────────────────────────────────╯ */
+
+  .portfolio {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+  }
+
+  .portfolio li {
+    display: flex;
+    aspect-ratio: 3 / 5;
+    height: 60%;
+    max-height: 70%;
+    max-width: 25%;
+  }
+
+  .portfolio-item {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: white 2px solid;
+    border-radius: 10px;
+  }
 
 
 /* ╭────────────────────────────────────────────────────────────────────────────────╮
@@ -57,10 +103,6 @@ h1 {
 p {
   font-family: var(--text-font);
   color: var(--text-color-light)
-}
-
-.text-wrapper {
-  display: block;
 }
 
 /* ╭────────────────────────────────────────────────────────────────────────────────╮

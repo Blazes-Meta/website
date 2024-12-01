@@ -24,12 +24,10 @@
 <!-- │                                     Body                                       │ -->
 <!-- ╰────────────────────────────────────────────────────────────────────────────────╯ -->
 
-<body class="seite">
-    <!-- Topbar Start -->
+<body class="page">
     <custom-header></custom-header>   
-    <!-- Topbar End -->
 
-    <div class="fullscreen-container" style="
+    <div class="start-container" style="
       background-image: url('img/images/background.png');
       background-size: cover;
       background-position: center center;
@@ -42,9 +40,19 @@
         </div>
       </div>
     </div>
-    <div class="fullscreen-container"></div>
+
+    <div class="start-container">
+      <ul class="portfolio">
+        <li><div class="portfolio-item"></div></li>
+        <li><div class="portfolio-item"></div></li>
+        <li><div class="portfolio-item"></div></li>
+      </ul>
+    </div>
+
+    <custom-footer></custom-footer>
 
     <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
 </body>
 
 </html>

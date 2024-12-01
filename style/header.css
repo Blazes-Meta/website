@@ -41,16 +41,8 @@ header
 }
 
 .navbar a {
-  display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s;
 }
 
 .navbar .icon-wrapper {
@@ -85,7 +77,10 @@ header
   display: block;
 }
 
-/* Für Geräte mit Screen Ration unter 1/1, vor allem Handys */
+/* ╭────────────────────────────────────────────────────────────────────────────────╮
+   │                               Mobile Optimierung                               │
+   ╰────────────────────────────────────────────────────────────────────────────────╯ */
+
 @media only screen and (max-aspect-ratio: 1/1) {
   .icon-wrapper::after {
     display: none !important;
