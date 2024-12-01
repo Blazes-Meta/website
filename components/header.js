@@ -6,7 +6,7 @@ class Header extends HTMLElement {
         shadow.innerHTML = `
           <link rel="stylesheet" href="style/header.css">
           
-          <header class="site-header">
+          <header class="header">
             <div class="logo"><a href="https://blazesmeta.de"><img src="img/logo.png" alt="Logo von Blazes Meta"></a></div>
             <nav class="navbar">
               <ul>
