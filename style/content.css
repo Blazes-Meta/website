@@ -54,37 +54,42 @@
   padding-left: 20px;
 }
 
-  /* ╭────────────────────────────────────────────────────────────────────────────────╮
-     │                                  Portfolio                                     │
-     ╰────────────────────────────────────────────────────────────────────────────────╯ */
+/* ╭────────────────────────────────────────────────────────────────────────────────╮
+    │                                  Portfolio                                     │
+    ╰────────────────────────────────────────────────────────────────────────────────╯ */
 
-  .portfolio {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 50px;
-  }
+.portfolio {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
 
-  .portfolio li {
-    display: flex;
-    aspect-ratio: 3 / 5;
-    height: 60%;
-    max-height: 70%;
-    max-width: 25%;
-  }
+.portfolio li {
+  display: flex;
+  aspect-ratio: 3 / 5;
+  height: 60%;
+  max-height: 70%;
+  max-width: 25%;
+}
 
-  .portfolio-item {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    border: white 2px solid;
-    border-radius: 10px;
-  }
+.portfolio-item {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border: white 2px solid;
+  border-radius: 10px;
+  transition: transform 0.15s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.1);
+}
 
 
 /* ╭────────────────────────────────────────────────────────────────────────────────╮
