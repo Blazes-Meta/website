@@ -82,6 +82,7 @@
   display: flex;
   height: 100%;
   width: 100%;
+  justify-content: bottom;
   box-shadow: 0 0 0 2px rgb(202, 202, 202);
   border-radius: 10px;
   transition: transform 0.15s ease, box-shadow 0.3s ease;
@@ -92,6 +93,15 @@
   box-shadow: 0 0 0 2px var(--accent-color);
 }
 
+.portfolio-title {
+  font-family: var(--heading-font);
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 1px;
+  color: var(--text-color-light);
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* ╭────────────────────────────────────────────────────────────────────────────────╮
    │                                     Text                                       │
