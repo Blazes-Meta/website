@@ -98,7 +98,7 @@
 
 .portfolio-item:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 0 2px var(--accent-color);
+  box-shadow: 0 0 0 4px var(--accent-color);
 }
 
 .portfolio-title {
