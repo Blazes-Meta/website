@@ -82,16 +82,10 @@ header
    ╰────────────────────────────────────────────────────────────────────────────────╯ */
 
 @media only screen and (max-aspect-ratio: 1/1) {
-  .icon-wrapper::after {
-    display: none !important;
+  .dont-show-mobile {
+  display: none !important;
   }
-  .icon {
-    display: none !important;
-  }
-  .show-mobile {
-    transform: translateX(+25%);
-    display: block !important;
-  }
+  
   .navbar ul {
     justify-content: end;
   }
