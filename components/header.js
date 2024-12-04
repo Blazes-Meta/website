@@ -4,7 +4,7 @@ class Header extends HTMLElement {
         const shadow = this.attachShadow({ mode: 'open' });
 
         shadow.innerHTML = `
-          <link rel="stylesheet" href="style/header.css">
+          <link rel="stylesheet" href="style/header-footer.css">
           
           <header class="header">
             <div class="logo"><a href="https://blazesmeta.de"><img src="img/logo.png" alt="Logo von Blazes Meta"></a></div>
