@@ -81,6 +81,10 @@
   max-width: 25%;
 }
 
+.portfolio a {
+  width: 100%;
+}
+
 .portfolio-item {
   display: flex;
   height: 100%;
@@ -130,6 +134,10 @@ h1 {
 p {
   font-family: var(--text-font);
   color: var(--text-color-light);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ╭────────────────────────────────────────────────────────────────────────────────╮
