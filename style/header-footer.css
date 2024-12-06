@@ -1,17 +1,5 @@
 @import url("variables.css");
 
-/* Aufbau des Headers:
-header
-  .logo
-    a
-      img
-  .navbar
-    ul
-      li
-        a
-          .icon-wrapper
-            .icon */
-
 .header {
   display: flex;
   justify-content: space-between;
