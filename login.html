@@ -84,7 +84,7 @@
 </head>
 <body>
 
-  <div class="login-container">
+  <div class="login-container" id="loginFormContainer">
     <h2>Login</h2>
     <form id="loginForm" action="/login" method="POST">
       <div class="input-group">
@@ -181,15 +181,13 @@
 
     // Formularwechsel: Login <-> Registrierung
     document.getElementById("showRegisterForm").addEventListener("click", () => {
-      document.getElementById("loginForm").style.display = "none";
-      document.getElementById("showRegisterForm").style.display = "none";
+      document.getElementById("loginFormContainer").style.display = "none";
       document.getElementById("registerContainer").style.display = "block";
     });
 
     document.getElementById("showLoginForm").addEventListener("click", () => {
       document.getElementById("registerContainer").style.display = "none";
-      document.getElementById("showRegisterForm").style.display = "block";
-      document.getElementById("loginForm").style.display = "block";
+      document.getElementById("loginFormContainer").style.display = "block";
     });
   </script>
 
